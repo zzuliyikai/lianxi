@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.ijk.IjkActivity">
+
+
+
+    <!--<VideoView-->
+        <!--android:id="@+id/vv"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="200dp" />-->
+
+
+    <com.ijk.media.VideoPlayerIJK
+        android:layout_marginTop="100dp"
+        android:id="@+id/ijk_player"
+        android:layout_width="match_parent"
+        android:layout_height="600dp">
+
+    </com.ijk.media.VideoPlayerIJK>
+
+
+    <!--<com.exoplayer.PlayerVideoView-->
+        <!--android:id="@+id/playerv"-->
+        <!--android:layout_below="@id/ijk_player"-->
+        <!--android:layout_marginTop="100dp"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="200dp">-->
+
+    <!--</com.exoplayer.PlayerVideoView>-->
+
+
+
+</RelativeLayout>

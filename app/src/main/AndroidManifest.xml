@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.rxjava2.test">
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+
+    <application
+        android:name="com.InitApp"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="com.exoplayer.VideoViewActivity">
+        </activity>
+        <activity android:name="com.ijk.IjkActivity">
+
+        </activity>
+        <activity android:name="com.ecg.EcgActivity" />
+        <activity android:name="com.coordinator.CollapsingActivity" />
+        <activity
+            android:name="com.coordinator.CoordinatorActivity"
+            android:theme="@style/AppTheme" />
+        <activity android:name="com.constraint.ConstraintActivity" />
+        <activity android:name="com.deviceutils.DeviceActivity" />
+        <activity android:name="com.surfaceView.SurfaceViewActivity" />
+        <activity android:name=".RxjavaActivity" />
+        <activity android:name="com.thread.ThreadActivity" />
+        <activity android:name="com.webview.WebViewActivity" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name="com.reference.ReferenceActivity" />
+        <activity android:name="com.CustomerView.CustomerViewActivity" />
+        <activity android:name="com.socket.SocketServerActivity" />
+        <activity android:name="com.socket.SocketClientActivity" />
+        <activity android:name="com.okdownload.OkDownActivity" />
+        <activity android:name="com.exoplayer.ExoplayerActivity"></activity>
+        <activity android:name="com.screenshot.ScreenShotActivity" />
+        <activity
+            android:name="com.realm.RealmActivity"
+            android:configChanges="uiMode|fontScale|mcc|mnc|locale|touchscreen|keyboard|keyboardHidden|navigation|orientation|screenLayout|colorMode"
+            android:launchMode="singleTask" />
+        <activity android:name="com.lock.Main3Activity" />
+        <activity android:name=".MainActivity" />
+        <activity android:name=".SecondActivity" />
+        <activity android:name="com.rxjava.imp.TestActivity" />
+        <activity android:name=".SocketActivity" />
+        <activity android:name=".GlideActivity" />
+        <activity android:name=".LruActivity" />
+        <activity android:name=".ImmersiveActivity" />
+        <activity
+            android:name="com.theme.ThemeActivity"
+            android:theme="@style/AppTheme_appbar" />
+        <activity
+            android:name="com.theme.Theme1Activity"
+            android:theme="@style/AppTheme_appbar" />
+        <activity android:name="com.lock.Main1Activity" />
+
+        <service
+            android:name="com.lock.MyService1"
+            android:enabled="true"
+            android:exported="true" />
+
+        <activity android:name="com.lock.Main2Activity" />
+    </application>
+
+</manifest>

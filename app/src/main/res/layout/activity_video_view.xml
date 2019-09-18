@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rl"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.exoplayer.ExoplayerActivity">
+
+
+
+    <com.exoplayer.PlayerVideoView
+        android:id="@+id/playervideo"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+
+
+    <ImageView
+        android:layout_below="@id/playervideo"
+        android:id="@+id/iv_sanp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+
+
+    <Button
+        android:layout_below="@id/iv_sanp"
+        android:id="@+id/btn_snap"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="截屏"
+        />
+
+
+</RelativeLayout>
